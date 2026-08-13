@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MSB Educational Institute Secunderabad — a brand of Dot Com Solutions</title>
+  <meta name="description" content="MSB Educational Institute Secunderabad is a brand of Dot Com Solutions. Official presence for school communications and WhatsApp Business verification." />
+  <meta name="author" content="Dot Com Solutions" />
+  <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex" />
+  <meta name="googlebot" content="noindex, nofollow, noarchive, nosnippet, noimageindex" />
+  <meta name="bingbot" content="noindex, nofollow, noarchive, nosnippet" />
+  <meta name="slurp" content="noindex, nofollow" />
+  <meta name="duckduckbot" content="noindex, nofollow" />
+  <meta name="baiduspider" content="noindex, nofollow" />
+  <meta name="yandex" content="noindex, nofollow" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --ink: #0c1730;
+      --navy: #142a60;
+      --navy-deep: #0a1740;
+      --gold: #c9a227;
+      --gold-soft: #e4c86a;
+      --mist: #eef2f8;
+      --paper: #f7f8fb;
+      --text: #1c2438;
+      --muted: #5b657a;
+      --line: rgba(255, 255, 255, 0.14);
+      --shadow: 0 24px 60px rgba(10, 23, 64, 0.28);
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: "Manrope", sans-serif;
+      color: var(--text);
+      background: var(--paper);
+      line-height: 1.55;
+      min-height: 100vh;
+    }
+
+    a { color: inherit; text-decoration: none; }
+
+    .hero {
+      position: relative;
+      min-height: 100vh;
+      min-height: 100dvh;
+      display: flex;
+      flex-direction: column;
+      color: #fff;
+      overflow: hidden;
+      background:
+        radial-gradient(1200px 600px at 12% 18%, rgba(201, 162, 39, 0.22), transparent 55%),
+        radial-gradient(900px 500px at 88% 72%, rgba(90, 140, 220, 0.18), transparent 50%),
+        linear-gradient(155deg, var(--navy-deep) 0%, var(--navy) 48%, #1a3a7a 100%);
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background-image:
+        linear-gradient(rgba(255,255,255,0.035) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,0.035) 1px, transparent 1px);
+      background-size: 56px 56px;
+      mask-image: radial-gradient(ellipse at center, black 20%, transparent 75%);
+      pointer-events: none;
+      animation: gridDrift 28s linear infinite;
+    }
+
+    @keyframes gridDrift {
+      from { transform: translate3d(0, 0, 0); }
+      to { transform: translate3d(-56px, -56px, 0); }
+    }
+
+    .topbar {
+      position: relative;
+      z-index: 2;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1.25rem 6vw;
+    }
+
+    .topbar-brand {
+      display: flex;
+      align-items: center;
+      gap: 0.85rem;
+    }
+
+    .topbar-brand img {
+      height: 56px;
+      width: auto;
+      display: block;
+      mix-blend-mode: lighten;
+      filter: drop-shadow(0 4px 12px rgba(0,0,0,0.25));
+    }
+
+    .topbar-meta {
+      font-size: 0.78rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.72);
+      font-weight: 600;
+    }
+
+    .topbar-meta strong {
+      color: var(--gold-soft);
+      font-weight: 700;
+    }
+
+    .hero-main {
+      position: relative;
+      z-index: 2;
+      flex: 1;
+      display: grid;
+      align-content: center;
+      gap: 1.75rem;
+      padding: 4rem 6vw 5rem;
+      max-width: 920px;
+    }
+
+    .brand-mark {
+      height: min(300px, 40vh);
+      width: auto;
+      max-width: min(240px, 58vw);
+      object-fit: contain;
+      display: block;
+      margin-bottom: 0.35rem;
+      mix-blend-mode: lighten;
+      filter: drop-shadow(0 12px 30px rgba(0,0,0,0.35));
+      animation: riseIn 0.9s ease both;
+    }
+
+    .brand-name {
+      font-family: "Fraunces", serif;
+      font-weight: 700;
+      font-size: clamp(2.2rem, 5.5vw, 3.8rem);
+      line-height: 1.08;
+      letter-spacing: -0.02em;
+      animation: riseIn 0.9s ease 0.08s both;
+    }
+
+    .brand-line {
+      font-size: clamp(1.05rem, 2.2vw, 1.35rem);
+      font-weight: 600;
+      color: var(--gold-soft);
+      animation: riseIn 0.9s ease 0.16s both;
+    }
+
+    .brand-line em {
+      font-style: normal;
+      color: #fff;
+      border-bottom: 2px solid rgba(228, 200, 106, 0.55);
+      padding-bottom: 0.05em;
+    }
+
+    .lede {
+      max-width: 34rem;
+      color: rgba(255,255,255,0.82);
+      font-size: 1.05rem;
+      animation: riseIn 0.9s ease 0.24s both;
+    }
+
+    .cta-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.85rem;
+      margin-top: 0.35rem;
+      animation: riseIn 0.9s ease 0.32s both;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 48px;
+      padding: 0.85rem 1.35rem;
+      border-radius: 999px;
+      font-weight: 700;
+      font-size: 0.95rem;
+      transition: transform 0.2s ease, background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+    }
+
+    .btn:hover { transform: translateY(-2px); }
+
+    .btn-primary {
+      background: var(--gold);
+      color: var(--ink);
+    }
+
+    .btn-primary:hover { background: var(--gold-soft); }
+
+    .btn-ghost {
+      border: 1px solid var(--line);
+      color: #fff;
+      background: rgba(255,255,255,0.04);
+    }
+
+    .btn-ghost:hover {
+      border-color: rgba(255,255,255,0.35);
+      background: rgba(255,255,255,0.08);
+    }
+
+    @keyframes riseIn {
+      from { opacity: 0; transform: translateY(18px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .section {
+      padding: 4.5rem 6vw;
+    }
+
+    .section-inner {
+      max-width: 1080px;
+      margin: 0 auto;
+    }
+
+    .section h2 {
+      font-family: "Fraunces", serif;
+      font-size: clamp(1.7rem, 3vw, 2.3rem);
+      color: var(--navy);
+      margin-bottom: 0.85rem;
+      letter-spacing: -0.02em;
+    }
+
+    .section p {
+      color: var(--muted);
+      max-width: 40rem;
+      font-size: 1.02rem;
+    }
+
+    .about {
+      background: var(--paper);
+    }
+
+    .ownership {
+      background:
+        linear-gradient(180deg, #fff 0%, var(--mist) 100%);
+      border-top: 1px solid rgba(20, 42, 96, 0.08);
+      border-bottom: 1px solid rgba(20, 42, 96, 0.08);
+    }
+
+    .ownership-panel {
+      display: grid;
+      gap: 1rem;
+      padding: 2rem 0 0;
+    }
+
+    .ownership-kicker {
+      font-size: 0.78rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: var(--gold);
+    }
+
+    .ownership-title {
+      font-family: "Fraunces", serif;
+      font-size: clamp(1.8rem, 3.5vw, 2.6rem);
+      color: var(--navy);
+      line-height: 1.15;
+    }
+
+    .ownership-title span {
+      display: block;
+      color: var(--ink);
+    }
+
+    .ownership-copy {
+      max-width: 38rem;
+      color: var(--muted);
+      font-size: 1.05rem;
+    }
+
+    .facts {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 1.25rem;
+      margin-top: 2rem;
+    }
+
+    .fact {
+      padding: 1.25rem 0;
+      border-top: 2px solid rgba(20, 42, 96, 0.12);
+    }
+
+    .fact strong {
+      display: block;
+      color: var(--navy);
+      font-size: 0.95rem;
+      margin-bottom: 0.35rem;
+    }
+
+    .fact span {
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .contact {
+      background: #fff;
+    }
+
+    .contact-list {
+      list-style: none;
+      margin-top: 1.5rem;
+      display: grid;
+      gap: 0.85rem;
+      max-width: 36rem;
+    }
+
+    .contact-list li {
+      display: grid;
+      gap: 0.15rem;
+    }
+
+    .contact-list strong {
+      color: var(--navy);
+      font-size: 0.85rem;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
+    .contact-list span,
+    .contact-list a {
+      color: var(--muted);
+    }
+
+    .contact-list a:hover { color: var(--navy); }
+
+    footer {
+      background: var(--navy-deep);
+      color: rgba(255,255,255,0.78);
+      padding: 2rem 6vw 2.5rem;
+    }
+
+    .footer-inner {
+      max-width: 1080px;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .footer-brand {
+      font-family: "Fraunces", serif;
+      color: #fff;
+      font-size: 1.15rem;
+    }
+
+    .footer-brand small {
+      display: block;
+      margin-top: 0.25rem;
+      font-family: "Manrope", sans-serif;
+      font-size: 0.85rem;
+      color: var(--gold-soft);
+      font-weight: 600;
+    }
+
+    .footer-copy {
+      font-size: 0.88rem;
+      color: rgba(255,255,255,0.55);
+    }
+
+    @media (max-width: 800px) {
+      .facts { grid-template-columns: 1fr; }
+      .topbar { flex-direction: column; align-items: flex-start; gap: 0.5rem; }
+      .hero-main { padding-top: 2.5rem; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before { animation: none !important; transition: none !important; }
+    }
+  </style>
+</head>
+<body>
+  <header class="hero" id="home">
+    <div class="topbar">
+      <div class="topbar-brand">
+        <img src="logo.png" alt="MSB Educational Institute Secunderabad" />
+      </div>
+      <div class="topbar-meta">Official site · <strong>Dot Com Solutions</strong></div>
+    </div>
+
+    <div class="hero-main">
+      <img class="brand-mark" src="logo.png" alt="MSB Educational Institute Secunderabad Logo" />
+      <h1 class="brand-name">MSB Educational Institute<br />Secunderabad</h1>
+      <p class="brand-line">A brand of <em>Dot Com Solutions</em></p>
+      <p class="lede">
+        Official presence for school communications, parent outreach,
+        and WhatsApp Business verification.
+      </p>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="#ownership">Business ownership</a>
+        <a class="btn btn-ghost" href="#contact">Contact</a>
+      </div>
+    </div>
+  </header>
+
+  <section class="section about" id="about">
+    <div class="section-inner">
+      <h2>About this presence</h2>
+      <p>
+        This website represents <strong>MSB Educational Institute Secunderabad</strong> for official digital
+        communications and business verification with platforms such as Meta WhatsApp Business.
+        It is operated as a brand of Dot Com Solutions.
+      </p>
+    </div>
+  </section>
+
+  <section class="section ownership" id="ownership">
+    <div class="section-inner">
+      <p class="ownership-kicker">Business verification</p>
+      <h2 class="ownership-title">
+        MSB Educational Institute Secunderabad
+        <span>a brand of Dot Com Solutions</span>
+      </h2>
+      <p class="ownership-copy">
+        Dot Com Solutions owns and operates the MSB Educational Institute Secunderabad
+        digital brand used for school messaging, parent notifications, and related online services.
+        This page exists to confirm that relationship for business verification.
+      </p>
+
+      <div class="facts">
+        <div class="fact">
+          <strong>Brand</strong>
+          <span>MSB Educational Institute Secunderabad</span>
+        </div>
+        <div class="fact">
+          <strong>Parent company</strong>
+          <span>Dot Com Solutions</span>
+        </div>
+        <div class="fact">
+          <strong>Purpose</strong>
+          <span>School communications &amp; WhatsApp Business</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section contact" id="contact">
+    <div class="section-inner">
+      <h2>Contact</h2>
+      <p>For verification or official queries related to this brand:</p>
+      <ul class="contact-list">
+        <li>
+          <strong>Brand</strong>
+          <span>MSB Educational Institute Secunderabad</span>
+        </li>
+        <li>
+          <strong>Company</strong>
+          <span>Dot Com Solutions</span>
+        </li>
+        <li>
+          <strong>Website</strong>
+          <a href="https://dotcomsolutions.biz/" rel="noopener">dotcomsolutions.biz</a>
+        </li>
+        <li>
+          <strong>Address</strong>
+          <span>
+            FFHW+2MJ, Lalamiya Basti,<br />
+            Burhani Housing Colony, RTC Officers Colony, Tirumalagiri,<br />
+            Secunderabad, India 500015<br />
+            India
+          </span>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-brand">
+        MSB Educational Institute Secunderabad
+        <small>A brand of Dot Com Solutions</small>
+      </div>
+      <p class="footer-copy">&copy; <span id="year"></span> Dot Com Solutions. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
