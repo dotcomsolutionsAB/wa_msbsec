@@ -1256,17 +1256,18 @@ var Datatables = function() {
 
     var whatsapp = function() {
 
-        manageWhatsAppTable = $('#whatsapp_queue_datatable').KTDatatable({
+        if (!$('#students_datatable').length) {
+            return;
+        }
+
+        manageWhatsAppTable = $('#students_datatable').KTDatatable({
             // datasource definition
             data: {
                 type: 'remote',
                 source: {
                     read: {
-                        url: '../assets/custom/whatsapp/retrieve.php',
-                        // sample custom headers
-                        // headers: {'x-my-custom-header': 'some value', 'x-test-header': 'the value'},
+                        url: '../assets/custom/students/retrieve.php',
                         map: function(raw) {
-                            // sample data mapping
                             var dataSet = raw;
                             if (typeof raw.data !== 'undefined') {
                                 dataSet = raw.data;
@@ -1283,7 +1284,7 @@ var Datatables = function() {
 
             // layout definition
             layout: {
-                scroll: false,
+                scroll: true,
                 footer: false,
             },
 
@@ -1301,35 +1302,57 @@ var Datatables = function() {
                     field: 'SN',
                     title: '#',
                     sortable: 'asc',
-                    width: 30,
+                    width: 40,
                     type: 'number',
                     selector: false,
                     textAlign: 'center',
                 }, {
-                    field: 'mobile',
-                    title: 'Mobile',
+                    field: 'name',
+                    title: 'Child Name',
+                    width: 140,
                 }, {
-                    field: 'message',
-                    title: 'Message'
+                    field: 'its',
+                    title: 'ITS',
+                    width: 90,
+                }, {
+                    field: 'class',
+                    title: 'Class',
+                    width: 70,
+                }, {
+                    field: 'section',
+                    title: 'Section',
+                    width: 70,
+                }, {
+                    field: 'father_name',
+                    title: 'Father',
+                    width: 120,
+                }, {
+                    field: 'father_mobile',
+                    title: 'Father Mobile',
+                    width: 110,
+                }, {
+                    field: 'mother_name',
+                    title: 'Mother',
+                    width: 120,
+                }, {
+                    field: 'mother_mobile',
+                    title: 'Mother Mobile',
+                    width: 110,
+                }, {
+                    field: 'custom_1',
+                    title: 'Custom 1',
+                    width: 100,
+                }, {
+                    field: 'custom_2',
+                    title: 'Custom 2',
+                    width: 100,
+                }, {
+                    field: 'custom_3',
+                    title: 'Custom 3',
+                    width: 100,
                 }
             ],
 
-        });
-
-        $('#kt_user_type').on('change', function() {
-            manageUsersTable.search($(this).val().toLowerCase(), 'Usertype');
-        });
-
-        $('#kt_user_type').selectpicker();
-
-        $('#userlevel').select2({
-            width: '100%',
-            placeholder: 'Select User Type'
-        });
-
-        $('#edit_userlevel').select2({
-            width: '100%',
-            placeholder: 'Select User Type'
         });
     };
 
@@ -14472,7 +14495,64 @@ function import_followup() {
 
 var Whatsapp = function() {
 
+    var handleSyncStudents = function() {
+        $('#students_sync_btn').off('click').on('click', function() {
+            var $btn = $(this);
+            $btn.prop('disabled', true).text('Syncing...');
+
+            $.ajax({
+                type: 'POST',
+                url: '../assets/custom/students/sync.php',
+                dataType: 'json',
+                success: function(response) {
+                    if (response && response.success) {
+                        swal.fire({
+                            position: 'top-right',
+                            type: 'success',
+                            title: response.messages || ('Synced ' + response.count + ' students'),
+                            showConfirmButton: false,
+                            timer: 1600
+                        });
+                        if (typeof manageWhatsAppTable !== 'undefined' && manageWhatsAppTable) {
+                            manageWhatsAppTable.reload();
+                        }
+                        if (response.count !== undefined) {
+                            $('#students_count_label').text(response.count + ' synced · Just now');
+                        }
+                    } else {
+                        swal.fire({
+                            position: 'top-right',
+                            type: 'error',
+                            title: (response && response.error) ? response.error : 'Sync failed',
+                            showConfirmButton: true
+                        });
+                    }
+                },
+                error: function(xhr) {
+                    var msg = 'Sync failed';
+                    try {
+                        var parsed = JSON.parse(xhr.responseText);
+                        if (parsed && parsed.error) msg = parsed.error;
+                    } catch (e) {}
+                    swal.fire({
+                        position: 'top-right',
+                        type: 'error',
+                        title: msg,
+                        showConfirmButton: true
+                    });
+                },
+                complete: function() {
+                    $btn.prop('disabled', false).text('Sync from Google Sheet');
+                }
+            });
+        });
+    };
+
     var handleSendWhatsapp = function() {
+
+        if (!$('#whatsapp_form').length) {
+            return;
+        }
 
         var ajaxAdd = async function(form) {
             $("#wa_queue_submit").attr("disabled", true);
@@ -14634,6 +14714,7 @@ var Whatsapp = function() {
     return {
         // public functions
         init: function() {
+            handleSyncStudents();
             handleSendWhatsapp();
         }
     };

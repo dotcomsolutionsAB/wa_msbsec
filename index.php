@@ -50,7 +50,7 @@
 								<div class="kt-login__body">
 									<div class="kt-login__logo">
 										<a href="#">
-											<!-- <img src="assets/media/company-logos/logo.png" height="100px"> -->
+											<img src="assets/media/company-logos/logo.png" height="100px">
 										</a>
 									</div>
 									<div class="kt-login__signin">
