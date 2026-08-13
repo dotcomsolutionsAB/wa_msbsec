@@ -1,6 +1,7 @@
 <?php
 /**
  * Sync students from published Google Sheet CSV into `students` table.
+ * Preserves last_message_sent_at by ITS across syncs.
  */
 
 declare(strict_types=1);
@@ -35,6 +36,15 @@ if ($headerError !== null) {
     exit;
 }
 
+// Preserve send timestamps by ITS before rebuild
+$lastSentByIts = [];
+$preserveRes = @$db->query("SELECT `its`, `last_message_sent_at` FROM `students` WHERE `its` <> '' AND `last_message_sent_at` IS NOT NULL");
+if ($preserveRes) {
+    while ($p = $preserveRes->fetch_assoc()) {
+        $lastSentByIts[(string) $p['its']] = $p['last_message_sent_at'];
+    }
+}
+
 if (!$db->query('TRUNCATE TABLE `students`')) {
     echo json_encode(['success' => false, 'error' => 'Failed to clear students table', 'detail' => $db->error]);
     exit;
@@ -67,7 +77,6 @@ foreach ($rows as $r) {
     $c4 = sheetGet($r, $headerMap, 'Custom 4');
     $c5 = sheetGet($r, $headerMap, 'Custom 5');
 
-    // Skip completely empty rows
     if ($name === '' && $its === '' && $fatherMobile === '' && $motherMobile === '') {
         continue;
     }
@@ -96,6 +105,12 @@ foreach ($rows as $r) {
 }
 
 $stmt->close();
+
+foreach ($lastSentByIts as $itsKey => $ts) {
+    $itsEsc = $db->real_escape_string((string) $itsKey);
+    $tsEsc = $db->real_escape_string((string) $ts);
+    $db->query("UPDATE `students` SET `last_message_sent_at` = '{$tsEsc}' WHERE `its` = '{$itsEsc}'");
+}
 
 echo json_encode([
     'success' => true,

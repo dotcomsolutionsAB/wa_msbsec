@@ -107,3 +107,19 @@
     width: 90%;
   }
 }
+
+/* Students datatable: keep wide columns inside a scrollable viewport */
+#students_datatable {
+	overflow: hidden;
+	max-width: 100%;
+}
+
+#students_datatable .kt-datatable__table {
+	overflow-x: auto !important;
+	overflow-y: auto !important;
+}
+
+#students_datatable .kt-datatable__body {
+	overflow-x: auto !important;
+	overflow-y: auto !important;
+}

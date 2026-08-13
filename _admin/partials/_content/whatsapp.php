@@ -11,6 +11,14 @@ if ($res) {
 	$syncedAt = $row['synced_at'] ? $row['synced_at'] : '';
 }
 
+$classes = [];
+$classRes = @$db->query("SELECT DISTINCT `class` FROM `students` WHERE `class` <> '' ORDER BY `class` ASC");
+if ($classRes) {
+	while ($c = $classRes->fetch_assoc()) {
+		$classes[] = $c['class'];
+	}
+}
+
 ?>
 
 <!-- begin:: Content -->
@@ -45,8 +53,50 @@ if ($res) {
 									</span>
 								</div>
 							</div>
+							<div class="col-md-3">
+								<select class="form-control" id="students_class_filter">
+									<option value="">All Classes</option>
+									<?php foreach ($classes as $className): ?>
+										<option value="<?php echo htmlspecialchars($className); ?>"><?php echo htmlspecialchars($className); ?></option>
+									<?php endforeach; ?>
+								</select>
+							</div>
+							<div class="col-md-5 text-right">
+								<span class="kt-margin-r-10" id="students_selected_label">0 selected</span>
+								<button type="button" class="btn btn-sm btn-brand" id="students_send_wa_btn" disabled>
+									Send WA
+								</button>
+							</div>
 						</div>
 					</div>
+
+					<div id="wa_test_panel" class="kt-margin-b-15" style="display:none;">
+						<div class="alert alert-secondary mb-0">
+							<div class="row align-items-end">
+								<div class="col-md-3">
+									<label>Parent</label>
+									<select class="form-control" id="wa_test_parent_role">
+										<option value="father">Father</option>
+										<option value="mother">Mother</option>
+									</select>
+								</div>
+								<div class="col-md-4">
+									<label>Phone (test)</label>
+									<input type="text" class="form-control" id="wa_test_phone" placeholder="91XXXXXXXXXX">
+								</div>
+								<div class="col-md-3">
+									<label>&nbsp;</label>
+									<button type="button" class="btn btn-warning btn-block" id="wa_test_send_btn">
+										Send Test Message
+									</button>
+								</div>
+								<div class="col-md-2">
+									<small class="form-text text-muted" id="wa_test_student_label"></small>
+								</div>
+							</div>
+						</div>
+					</div>
+
 					<div class="kt-datatable" id="students_datatable"></div>
 				</div>
 			</div>

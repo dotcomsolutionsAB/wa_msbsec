@@ -5,11 +5,12 @@ include __DIR__ . '/../connect.php';
 $pagination = isset($_REQUEST['pagination']) ? $_REQUEST['pagination'] : ['page' => 1, 'perpage' => 10];
 $query_array = isset($_REQUEST['query']) ? $_REQUEST['query'] : [];
 $query = isset($query_array['generalSearch']) ? trim((string) $query_array['generalSearch']) : '';
+$classFilter = isset($query_array['class']) ? trim((string) $query_array['class']) : '';
 
-$searchSql = '';
+$where = [];
 if ($query !== '') {
     $q = $db->real_escape_string($query);
-    $searchSql = " WHERE
+    $where[] = "(
         `name` LIKE '%{$q}%'
         OR `its` LIKE '%{$q}%'
         OR `father_name` LIKE '%{$q}%'
@@ -20,8 +21,15 @@ if ($query !== '') {
         OR `section` LIKE '%{$q}%'
         OR `custom_1` LIKE '%{$q}%'
         OR `custom_2` LIKE '%{$q}%'
-        OR `custom_3` LIKE '%{$q}%'";
+        OR `custom_3` LIKE '%{$q}%'
+    )";
 }
+if ($classFilter !== '') {
+    $classEsc = $db->real_escape_string($classFilter);
+    $where[] = "`class` = '{$classEsc}'";
+}
+
+$searchSql = empty($where) ? '' : (' WHERE ' . implode(' AND ', $where));
 
 $total = 0;
 $countRes = $db->query("SELECT COUNT(*) AS total FROM `students`{$searchSql}");
@@ -51,6 +59,7 @@ $sql = "SELECT * FROM `students`{$searchSql} ORDER BY CAST(`sn` AS UNSIGNED), `i
 $result = $db->query($sql);
 if ($result) {
     while ($row = $result->fetch_assoc()) {
+        $lastSent = isset($row['last_message_sent_at']) ? $row['last_message_sent_at'] : null;
         $output['data'][] = [
             'SN' => $count++,
             'id' => $row['id'],
@@ -69,6 +78,8 @@ if ($result) {
             'custom_4' => $row['custom_4'],
             'custom_5' => $row['custom_5'],
             'synced_at' => $row['synced_at'],
+            'last_message_sent_at' => $lastSent ? $lastSent : '',
+            'last_message_sent_on' => $lastSent ? $lastSent : '—',
         ];
     }
 }

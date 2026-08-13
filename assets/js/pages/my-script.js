@@ -1285,6 +1285,7 @@ var Datatables = function() {
             // layout definition
             layout: {
                 scroll: true,
+                height: 520,
                 footer: false,
             },
 
@@ -1299,6 +1300,16 @@ var Datatables = function() {
 
             // columns definition
             columns: [{
+                    field: 'id',
+                    title: '',
+                    sortable: false,
+                    width: 30,
+                    type: 'number',
+                    selector: {
+                        class: 'kt-checkbox--solid'
+                    },
+                    textAlign: 'center',
+                }, {
                     field: 'SN',
                     title: '#',
                     sortable: 'asc',
@@ -1309,39 +1320,46 @@ var Datatables = function() {
                 }, {
                     field: 'name',
                     title: 'Child Name',
-                    width: 140,
+                    width: 160,
                 }, {
                     field: 'its',
                     title: 'ITS',
-                    width: 90,
+                    width: 100,
                 }, {
                     field: 'class',
                     title: 'Class',
-                    width: 70,
+                    width: 80,
                 }, {
                     field: 'section',
                     title: 'Section',
-                    width: 70,
+                    width: 80,
+                }, {
+                    field: 'last_message_sent_on',
+                    title: 'Last Message Sent On',
+                    width: 150,
+                    template: function(row) {
+                        return row.last_message_sent_on || '—';
+                    }
                 }, {
                     field: 'father_name',
                     title: 'Father',
-                    width: 120,
+                    width: 140,
                 }, {
                     field: 'father_mobile',
                     title: 'Father Mobile',
-                    width: 110,
+                    width: 120,
                 }, {
                     field: 'mother_name',
                     title: 'Mother',
-                    width: 120,
+                    width: 140,
                 }, {
                     field: 'mother_mobile',
                     title: 'Mother Mobile',
-                    width: 110,
+                    width: 120,
                 }, {
                     field: 'custom_1',
                     title: 'Custom 1',
-                    width: 100,
+                    width: 130,
                 }, {
                     field: 'custom_2',
                     title: 'Custom 2',
@@ -1350,9 +1368,27 @@ var Datatables = function() {
                     field: 'custom_3',
                     title: 'Custom 3',
                     width: 100,
+                }, {
+                    field: 'custom_4',
+                    title: 'Custom 4',
+                    width: 100,
+                }, {
+                    field: 'custom_5',
+                    title: 'Custom 5',
+                    width: 100,
                 }
             ],
 
+        });
+
+        $('#students_class_filter').off('change').on('change', function() {
+            manageWhatsAppTable.search($(this).val(), 'class');
+        });
+
+        manageWhatsAppTable.on('kt-datatable--on-check kt-datatable--on-uncheck kt-datatable--on-layout-updated', function() {
+            if (typeof Whatsapp !== 'undefined' && Whatsapp.refreshSelection) {
+                Whatsapp.refreshSelection();
+            }
         });
     };
 
@@ -14495,6 +14531,63 @@ function import_followup() {
 
 var Whatsapp = function() {
 
+    var selectedStudentIds = function() {
+        if (!manageWhatsAppTable || !manageWhatsAppTable.rows) {
+            return [];
+        }
+        var ids = manageWhatsAppTable.rows('.kt-datatable__row--active').nodes()
+            .find('.kt-checkbox--single > [type="checkbox"]').map(function(i, chk) {
+                return $(chk).val();
+            }).get();
+        return ids.filter(function(id) { return !!id; });
+    };
+
+    var findStudentRowById = function(id) {
+        var set = [];
+        if (manageWhatsAppTable) {
+            if (typeof manageWhatsAppTable.getDataSet === 'function') {
+                set = manageWhatsAppTable.getDataSet() || [];
+            } else if (manageWhatsAppTable.dataSet) {
+                set = manageWhatsAppTable.dataSet;
+            } else if (manageWhatsAppTable.originalDataSet) {
+                set = manageWhatsAppTable.originalDataSet;
+            }
+        }
+        for (var n = 0; n < set.length; n++) {
+            if (String(set[n].id) === String(id)) {
+                return set[n];
+            }
+        }
+        return null;
+    };
+
+    var refreshSelection = function() {
+        var ids = selectedStudentIds();
+        var count = ids.length;
+        $('#students_selected_label').text(count + ' selected');
+        $('#students_send_wa_btn').prop('disabled', count === 0);
+
+        if (count === 1) {
+            var row = findStudentRowById(ids[0]);
+            $('#wa_test_panel').show();
+            if (row) {
+                $('#wa_test_student_label').text(row.name || '');
+                var role = $('#wa_test_parent_role').val() || 'father';
+                var phone = role === 'mother' ? (row.mother_mobile || '') : (row.father_mobile || '');
+                $('#wa_test_phone').val(phone);
+                $('#wa_test_panel').data('student-id', row.id);
+                $('#wa_test_panel').data('student-row', row);
+            } else {
+                $('#wa_test_panel').data('student-id', ids[0]);
+                $('#wa_test_student_label').text('Student #' + ids[0]);
+            }
+        } else {
+            $('#wa_test_panel').hide().removeData('student-id').removeData('student-row');
+            $('#wa_test_phone').val('');
+            $('#wa_test_student_label').text('');
+        }
+    };
+
     var handleSyncStudents = function() {
         $('#students_sync_btn').off('click').on('click', function() {
             var $btn = $(this);
@@ -14513,12 +14606,11 @@ var Whatsapp = function() {
                             showConfirmButton: false,
                             timer: 1600
                         });
-                        if (typeof manageWhatsAppTable !== 'undefined' && manageWhatsAppTable) {
-                            manageWhatsAppTable.reload();
-                        }
                         if (response.count !== undefined) {
                             $('#students_count_label').text(response.count + ' synced · Just now');
                         }
+                        // Refresh page so Class filter options stay in sync with sheet
+                        setTimeout(function() { location.reload(); }, 800);
                     } else {
                         swal.fire({
                             position: 'top-right',
@@ -14544,6 +14636,133 @@ var Whatsapp = function() {
                 complete: function() {
                     $btn.prop('disabled', false).text('Sync from Google Sheet');
                 }
+            });
+        });
+    };
+
+    var handleSendWaActions = function() {
+        if (!$('#students_datatable').length) {
+            return;
+        }
+
+        $('#wa_test_parent_role').off('change').on('change', function() {
+            var row = $('#wa_test_panel').data('student-row');
+            if (!row) return;
+            var role = $(this).val();
+            $('#wa_test_phone').val(role === 'mother' ? (row.mother_mobile || '') : (row.father_mobile || ''));
+        });
+
+        $('#wa_test_send_btn').off('click').on('click', function() {
+            var studentId = $('#wa_test_panel').data('student-id');
+            var phone = $.trim($('#wa_test_phone').val() || '');
+            var parentRole = $('#wa_test_parent_role').val() || 'father';
+
+            if (!studentId) {
+                swal.fire({ type: 'error', title: 'Select one student', showConfirmButton: true });
+                return;
+            }
+            if (!phone) {
+                swal.fire({ type: 'error', title: 'Enter a phone number', showConfirmButton: true });
+                return;
+            }
+
+            var $btn = $(this);
+            $btn.prop('disabled', true).text('Sending...');
+
+            $.ajax({
+                type: 'POST',
+                url: '../assets/custom/whatsapp/send_fee_reminder.php',
+                dataType: 'json',
+                data: {
+                    mode: 'test',
+                    student_id: studentId,
+                    phone: phone,
+                    parent_role: parentRole
+                },
+                success: function(response) {
+                    if (response && response.sent > 0) {
+                        swal.fire({
+                            position: 'top-right',
+                            type: 'success',
+                            title: 'Test message sent',
+                            showConfirmButton: false,
+                            timer: 1600
+                        });
+                        if (manageWhatsAppTable && manageWhatsAppTable.reload) {
+                            manageWhatsAppTable.reload();
+                        }
+                    } else {
+                        var err = (response && response.results && response.results[0] && response.results[0].error)
+                            || (response && response.error)
+                            || 'Send failed';
+                        swal.fire({ type: 'error', title: err, showConfirmButton: true });
+                    }
+                },
+                error: function(xhr) {
+                    var msg = 'Send failed';
+                    try {
+                        var parsed = JSON.parse(xhr.responseText);
+                        if (parsed && parsed.error) msg = parsed.error;
+                    } catch (e) {}
+                    swal.fire({ type: 'error', title: msg, showConfirmButton: true });
+                },
+                complete: function() {
+                    $btn.prop('disabled', false).text('Send Test Message');
+                }
+            });
+        });
+
+        $('#students_send_wa_btn').off('click').on('click', function() {
+            var ids = selectedStudentIds();
+            if (!ids.length) {
+                swal.fire({ type: 'error', title: 'Select at least one student', showConfirmButton: true });
+                return;
+            }
+
+            swal.fire({
+                title: 'Send fee_reminder to ' + ids.length + ' student(s)?',
+                text: 'Messages will go to father and mother mobiles when available.',
+                type: 'question',
+                showCancelButton: true,
+                confirmButtonText: 'Send WA'
+            }).then(function(result) {
+                if (!result.value) return;
+
+                var $btn = $('#students_send_wa_btn');
+                $btn.prop('disabled', true).text('Sending...');
+
+                $.ajax({
+                    type: 'POST',
+                    url: '../assets/custom/whatsapp/send_fee_reminder.php',
+                    dataType: 'json',
+                    data: {
+                        mode: 'bulk',
+                        student_ids: ids
+                    },
+                    success: function(response) {
+                        var title = (response && response.messages) ? response.messages : 'Done';
+                        swal.fire({
+                            type: (response && response.failed === 0 && response.sent > 0) ? 'success' : 'warning',
+                            title: title,
+                            showConfirmButton: true
+                        });
+                        if (manageWhatsAppTable && manageWhatsAppTable.reload) {
+                            manageWhatsAppTable.reload();
+                        }
+                    },
+                    error: function(xhr) {
+                        var msg = 'Send failed';
+                        try {
+                            var parsed = JSON.parse(xhr.responseText);
+                            if (parsed && parsed.error) msg = parsed.error;
+                        } catch (e) {}
+                        swal.fire({ type: 'error', title: msg, showConfirmButton: true });
+                    },
+                    complete: function() {
+                        $btn.prop('disabled', false).text('Send WA');
+                        refreshSelection();
+                    }
+                });
             });
         });
     };
@@ -14715,8 +14934,11 @@ var Whatsapp = function() {
         // public functions
         init: function() {
             handleSyncStudents();
+            handleSendWaActions();
             handleSendWhatsapp();
-        }
+            refreshSelection();
+        },
+        refreshSelection: refreshSelection
     };
 }();
 

@@ -118,9 +118,11 @@ CREATE TABLE `students` (
   `custom_4` varchar(255) NOT NULL DEFAULT '',
   `custom_5` varchar(255) NOT NULL DEFAULT '',
   `synced_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `last_message_sent_at` datetime DEFAULT NULL,
   PRIMARY KEY (`id`),
   KEY `idx_its` (`its`),
-  KEY `idx_name` (`name`)
+  KEY `idx_name` (`name`),
+  KEY `idx_class` (`class`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------

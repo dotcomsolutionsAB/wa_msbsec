@@ -1,2 +1,3 @@
 vendor/
 **/credentials.json
+assets/custom/database.php
