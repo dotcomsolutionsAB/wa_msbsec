@@ -67,11 +67,6 @@ if (!$row_fetch) {
     exit;
 }
 
-$queue_status = (int)$row_fetch['queue_status'];
-$frequency    = (int)$row_fetch['frequency'];
-$start_time   = $row_fetch['start_time'];
-$end_time     = $row_fetch['end_time'];
-
 $secret  = $row_fetch['secret'];
 $account = isset($row_fetch['account']) && $row_fetch['account'] !== '' ? $row_fetch['account'] : $row_fetch['instance_id'];
 
@@ -79,23 +74,12 @@ $base_from_db = trim($row_fetch['url']);
 if ($base_from_db === '') { $base_from_db = 'https://dash.woonotif.com'; }
 $apiEndpoint = rtrim($base_from_db, '/') . '/api/send/whatsapp';
 
-$now = time();
-$startTs = strtotime($start_time);
-$endTs   = strtotime($end_time);
-
 if ($DEBUG_UI) echo '<div class="card">';
 log_line('Endpoint', $apiEndpoint, 'info', $DEBUG_UI, $DEBUG_FILE, $LOG_FILE);
-log_line('Window', $start_time.' -> '.$end_time, 'info', $DEBUG_UI, $DEBUG_FILE, $LOG_FILE);
-log_line('Now', date('H:i:s'), 'info', $DEBUG_UI, $DEBUG_FILE, $LOG_FILE);
-log_line('Queue Status', $queue_status ? 'ON' : 'OFF', $queue_status ? 'ok' : 'bad', $DEBUG_UI, $DEBUG_FILE, $LOG_FILE);
-log_line('Frequency', (string)$frequency, 'info', $DEBUG_UI, $DEBUG_FILE, $LOG_FILE);
 if ($DEBUG_UI) echo '</div>';
 
-// Run only inside allowed time window & if queue is ON
-if ($now >= $startTs && $now <= $endTs && $queue_status) {
-
-    $sql   = "SELECT * FROM `wa_messages` ORDER BY `priority` DESC, `id` LIMIT $frequency";
-    $query = $db->query($sql);
+$sql   = "SELECT * FROM `wa_messages` ORDER BY `priority` DESC, `id`";
+$query = $db->query($sql);
 
     if (!$query) {
         if ($DEBUG_UI) echo '<div class="card">';
@@ -279,13 +263,6 @@ if ($now >= $startTs && $now <= $endTs && $queue_status) {
 
         if ($DEBUG_UI) echo '</div>';
     }
-
-} else {
-    if ($DEBUG_UI) echo '<div class="card">';
-    if (!$queue_status) log_line('Skipped', 'Queue is OFF', 'bad', $DEBUG_UI, $DEBUG_FILE, $LOG_FILE);
-    else log_line('Skipped', 'Current time is outside allowed window', 'bad', $DEBUG_UI, $DEBUG_FILE, $LOG_FILE);
-    if ($DEBUG_UI) echo '</div>';
-}
 
 if ($DEBUG_UI) {
     echo '<div class="card"><div class="row muted">Finished: '.date('Y-m-d H:i:s').'</div></div>';

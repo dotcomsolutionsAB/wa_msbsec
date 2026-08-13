@@ -21,17 +21,10 @@ if (version_compare(phpversion(), '7.1', '>=')) {
   $instance_id  = $row_fetch['instance_id'];
   $base_url     = $row_fetch['url'];
 
-  $queue_status = $row_fetch['queue_status'];
-  $frequency    = $row_fetch['frequency'];
-  $start_time   = $row_fetch['start_time'];
-  $end_time     = $row_fetch['end_time'];
-
-if(time() >= strtotime($start_time) && time() <= strtotime($end_time) && $queue_status){
-
   $today = date('Y-m-d');
   $day_today = date('l',strtotime($today));
 
-  $sql = "SELECT * FROM `wa_messages` ORDER BY `priority` DESC,`id` LIMIT $frequency";
+  $sql = "SELECT * FROM `wa_messages` ORDER BY `priority` DESC,`id`";
   $query = $db->query($sql);
   while($row = $query->fetch_assoc()){
 
@@ -138,6 +131,5 @@ if(time() >= strtotime($start_time) && time() <= strtotime($end_time) && $queue_
     }
 
   }
-}
 
 ?>

@@ -19,75 +19,55 @@ $len = sizeof($documents);
 					<div class="kt-portlet__head">
 						<div class="kt-portlet__head-label">
 							<h3 class="kt-portlet__head-title">
-								Whatsapp Credentials <small>Woonotif</small>
+								Whatsapp Credentials <small>Meta Cloud API</small>
 							</h3>
 						</div>
 					</div>
 					<div class="kt-portlet__body">
 						<?php
 							
-								$sql_fetch = "SELECT * FROM whatsapp";
+								$sql_fetch = "SELECT * FROM whatsapp LIMIT 1";
 								$query_fetch = $db->query($sql_fetch);
 								$row_fetch = $query_fetch->fetch_assoc();
 
-								$token = $row_fetch['token'];
-								$instance_id = $row_fetch['instance_id'];
-								$base_url = $row_fetch['url'];
-								$queue_status = $row_fetch['queue_status'];
-								$frequency = $row_fetch['frequency'];
-								$start_time = $row_fetch['start_time'];
-								$end_time = $row_fetch['end_time'];
-
-								$p_status = $queue_status == '0' ? "selected" : "";
-								$e_status = $queue_status == '1' ? "selected" : "";
-
-
+								$access_token    = isset($row_fetch['access_token']) ? $row_fetch['access_token'] : '';
+								$phone_number_id = isset($row_fetch['phone_number_id']) ? $row_fetch['phone_number_id'] : '';
+								$waba_id         = isset($row_fetch['waba_id']) ? $row_fetch['waba_id'] : '';
+								$api_version     = isset($row_fetch['api_version']) && $row_fetch['api_version'] !== '' ? $row_fetch['api_version'] : 'v22.0';
+								$base_url        = isset($row_fetch['url']) && $row_fetch['url'] !== '' ? $row_fetch['url'] : 'https://graph.facebook.com';
 
 								
 						?>
 						<div class="row" style="margin-top:5px;">
-							<div class="col-sm-3">Token</div>
+							<div class="col-sm-3">Access Token</div>
 							<div class="col-sm-9">
-								<input class="form-control" type="text" value="<?php echo $token; ?>" id="whatsapp_token" name="whatsapp_token">
+								<input class="form-control" type="password" value="<?php echo htmlspecialchars($access_token); ?>" id="whatsapp_access_token" name="whatsapp_access_token" autocomplete="off">
+								<span class="form-text text-muted">Meta permanent System User token (Bearer).</span>
 							</div>
 						</div>
 						<div class="row" style="margin-top:5px;">
-							<div class="col-sm-3">Instance Id</div>
+							<div class="col-sm-3">Phone Number ID</div>
 							<div class="col-sm-9">
-								<input class="form-control" type="text" value="<?php echo $instance_id; ?>" id="whatsapp_instance_id" name="whatsapp_instance_id">
+								<input class="form-control" type="text" value="<?php echo htmlspecialchars($phone_number_id); ?>" id="whatsapp_phone_number_id" name="whatsapp_phone_number_id">
 							</div>
 						</div>
 						<div class="row" style="margin-top:5px;">
-							<div class="col-sm-3">Base URL</div>
+							<div class="col-sm-3">WABA ID</div>
 							<div class="col-sm-9">
-								<input class="form-control" type="text" value="<?php echo $base_url; ?>" id="whatsapp_base_url" name="whatsapp_base_url">
+								<input class="form-control" type="text" value="<?php echo htmlspecialchars($waba_id); ?>" id="whatsapp_waba_id" name="whatsapp_waba_id">
+								<span class="form-text text-muted">WhatsApp Business Account ID (for templates).</span>
 							</div>
 						</div>
 						<div class="row" style="margin-top:5px;">
-							<div class="col-sm-3">Queue Status</div>
+							<div class="col-sm-3">API Version</div>
 							<div class="col-sm-9">
-								<select class="form-control bootstrap-select" id="whatsapp_status" name="whatsapp_status">
-									<option value="0" <?php echo $p_status; ?>>Pause Queue</option>
-									<option value="1" <?php echo $e_status; ?>>Enable Queue</option>
-								</select>
+								<input class="form-control" type="text" value="<?php echo htmlspecialchars($api_version); ?>" id="whatsapp_api_version" name="whatsapp_api_version" placeholder="v22.0">
 							</div>
 						</div>
 						<div class="row" style="margin-top:5px;">
-							<div class="col-sm-3">Frequency</div>
+							<div class="col-sm-3">Graph Base URL</div>
 							<div class="col-sm-9">
-								<input class="form-control" type="text" value="<?php echo $frequency; ?>" id="whatsapp_frequency" name="whatsapp_frequency">
-							</div>
-						</div>
-						<div class="row" style="margin-top:5px;">
-							<div class="col-sm-3">Queue Start Time</div>
-							<div class="col-sm-9">
-								<input class="form-control" type="time" value="<?php echo $start_time; ?>" id="whatsapp_start_time" name="whatsapp_start_time">
-							</div>
-						</div>
-						<div class="row" style="margin-top:5px;">
-							<div class="col-sm-3">Queue End Time</div>
-							<div class="col-sm-9">
-								<input class="form-control" type="time" value="<?php echo $end_time; ?>" id="whatsapp_end_time" name="whatsapp_end_time">
+								<input class="form-control" type="text" value="<?php echo htmlspecialchars($base_url); ?>" id="whatsapp_base_url" name="whatsapp_base_url">
 							</div>
 						</div>
 					</div>
