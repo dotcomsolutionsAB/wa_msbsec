@@ -1,0 +1,18 @@
+[15-Sep-2025 11:32:37 America/Chicago] PHP Warning:  Undefined array key "userlevel" in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/_admin/userlevel.php on line 3
+[15-Sep-2025 22:02:37 Asia/Kolkata] PHP Warning:  Undefined array key "username" in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/_admin/partials/_header/topbar/_user.php on line 3
+[15-Sep-2025 22:02:37 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/_admin/partials/_header/topbar/_user.php on line 8
+[15-Sep-2025 22:02:37 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/_admin/partials/_header/topbar/_user.php on line 20
+[15-Sep-2025 22:02:37 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/_admin/partials/_topbar/dropdown/user.php on line 7
+[30-Jan-2026 13:29:57 Asia/Kolkata] PHP Warning:  include(partials/_content/change_password.php): Failed to open stream: No such file or directory in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/_admin/layout.php on line 23
+[30-Jan-2026 13:29:57 Asia/Kolkata] PHP Warning:  include(partials/_content/change_password.php): Failed to open stream: No such file or directory in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/_admin/layout.php on line 23
+[30-Jan-2026 13:29:57 Asia/Kolkata] PHP Warning:  include(): Failed opening 'partials/_content/change_password.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/_admin/layout.php on line 23
+[31-Jan-2026 00:06:23 America/Chicago] PHP Warning:  Undefined array key "userlevel" in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/_admin/userlevel.php on line 3
+[31-Jan-2026 11:36:23 Asia/Kolkata] PHP Warning:  Undefined array key "username" in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/_admin/partials/_header/topbar/_user.php on line 3
+[31-Jan-2026 11:36:23 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/_admin/partials/_header/topbar/_user.php on line 8
+[31-Jan-2026 11:36:23 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/_admin/partials/_header/topbar/_user.php on line 20
+[31-Jan-2026 11:36:23 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/_admin/partials/_topbar/dropdown/user.php on line 7
+[13-Feb-2026 03:31:01 America/Chicago] PHP Warning:  Undefined array key "userlevel" in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/_admin/userlevel.php on line 3
+[13-Feb-2026 15:01:01 Asia/Kolkata] PHP Warning:  Undefined array key "username" in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/_admin/partials/_header/topbar/_user.php on line 3
+[13-Feb-2026 15:01:01 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/_admin/partials/_header/topbar/_user.php on line 8
+[13-Feb-2026 15:01:01 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/_admin/partials/_header/topbar/_user.php on line 20
+[13-Feb-2026 15:01:01 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/_admin/partials/_topbar/dropdown/user.php on line 7

@@ -1,0 +1,109 @@
+.highlight{
+	background: rgba(0, 123, 255,0.25);
+}
+
+.kt-login.kt-login--v2 .kt-login__wrapper .kt-login__container .kt-form .form-control{
+	background: rgba(255, 255, 255, 0.2)!important;
+}
+
+.kt-header, .kt-aside__brand{
+	background-color: #142a60!important;
+}
+
+#kt_aside_menu_wrapper, .kt-aside-menu{
+	background-color: #142a60!important;
+}
+
+.kt-aside-menu .kt-menu__nav > .kt-menu__item > .kt-menu__heading .kt-menu__link-icon svg g [fill], .kt-aside-menu .kt-menu__nav > .kt-menu__item > .kt-menu__link .kt-menu__link-icon svg g [fill]{
+	fill: #fff!important;
+}
+
+.kt-aside-menu .kt-menu__nav > .kt-menu__item:not(.kt-menu__item--parent):not(.kt-menu__item--open):not(.kt-menu__item--here):not(.kt-menu__item--active):hover > .kt-menu__heading, .kt-aside-menu .kt-menu__nav > .kt-menu__item:not(.kt-menu__item--parent):not(.kt-menu__item--open):not(.kt-menu__item--here):not(.kt-menu__item--active):hover > .kt-menu__link{
+	background-color: rgba(255, 255, 255, 0.05)!important;
+}
+
+.kt-header .kt-header__topbar .kt-header__topbar-item:hover.kt-header__topbar-item--user .kt-header__topbar-user, .kt-header .kt-header__topbar .kt-header__topbar-item.show.kt-header__topbar-item--user .kt-header__topbar-user{
+	background-color: rgba(255, 255, 255, 0.05)!important;
+}
+
+.kt-aside-menu .kt-menu__nav > .kt-menu__item.kt-menu__item--open > .kt-menu__heading, .kt-aside-menu .kt-menu__nav > .kt-menu__item.kt-menu__item--open > .kt-menu__link{
+	background-color: #142a60!important;
+}
+
+.kt-aside-menu .kt-menu__nav > .kt-menu__item .kt-menu__submenu .kt-menu__item:not(.kt-menu__item--parent):not(.kt-menu__item--open):not(.kt-menu__item--here):not(.kt-menu__item--active):hover > .kt-menu__heading, .kt-aside-menu .kt-menu__nav > .kt-menu__item .kt-menu__submenu .kt-menu__item:not(.kt-menu__item--parent):not(.kt-menu__item--open):not(.kt-menu__item--here):not(.kt-menu__item--active):hover > .kt-menu__link{
+	background-color: #142a60!important;
+}
+
+.kt-aside-menu .kt-menu__nav > .kt-menu__item.kt-menu__item--active > .kt-menu__heading, .kt-aside-menu .kt-menu__nav > .kt-menu__item.kt-menu__item--active > .kt-menu__link{
+	background-color: #142a60!important;
+}
+
+.kt-header .kt-header-menu .kt-menu__nav > .kt-menu__item > .kt-menu__link .kt-menu__link-text{
+	color: #fff!important;
+}
+
+#notif_container {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin: 1rem 2rem;
+}
+
+.notif_sub_container {
+	display: flex;
+	justify-content: center;
+}
+
+#wa_notif, #email_notif {
+	width: 1.5rem;
+	height: 1.5rem;
+}
+
+#notif_container label {
+	font-size: 15px;
+	margin-left: 0.5rem;
+}
+
+#sample_container {
+	background-color: #fff;
+	margin-bottom: 50px;
+	padding: 30px;
+	border-radius: 8px;
+	box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.kt-login__aside {
+	width: 30%;
+}
+
+.iti__arrow {
+	border-top: 4px solid #000 !important;
+}
+
+#sample_submit_btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#fulfill_container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+	margin: 1rem 2rem;
+}
+
+#fulfill_sub_container {
+	margin-top: 2rem;
+	display: flex;
+	align-items: self-end;
+	justify-content: flex-start;
+	font-size: 17;
+}
+
+@media screen and (max-width: 720px) {
+  .kt-login__aside {
+    width: 90%;
+  }
+}

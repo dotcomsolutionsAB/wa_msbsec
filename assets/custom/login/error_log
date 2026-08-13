@@ -1,0 +1,146 @@
+[18-Feb-2020 06:46:35 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'asmaijt9_burhan'@'localhost' (using password: YES) in /home/ammarhm7/public_html/crm/assets/custom/connect.php on line 3
+[09-Sep-2025 12:15:18 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'utavqate_msbsec_wa.logs' doesn't exist in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php:52
+Stack trace:
+#0 /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php(52): mysqli_query(Object(mysqli), 'INSERT INTO log...')
+#1 {main}
+  thrown in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php on line 52
+[09-Sep-2025 12:15:22 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'utavqate_msbsec_wa.logs' doesn't exist in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php:52
+Stack trace:
+#0 /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php(52): mysqli_query(Object(mysqli), 'INSERT INTO log...')
+#1 {main}
+  thrown in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php on line 52
+[09-Sep-2025 12:15:38 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'utavqate_msbsec_wa.logs' doesn't exist in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php:52
+Stack trace:
+#0 /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php(52): mysqli_query(Object(mysqli), 'INSERT INTO log...')
+#1 {main}
+  thrown in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php on line 52
+[09-Sep-2025 12:17:42 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'utavqate_msbsec_wa.logs' doesn't exist in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php:52
+Stack trace:
+#0 /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php(52): mysqli_query(Object(mysqli), 'INSERT INTO log...')
+#1 {main}
+  thrown in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php on line 52
+[09-Sep-2025 12:17:44 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'utavqate_msbsec_wa.logs' doesn't exist in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php:52
+Stack trace:
+#0 /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php(52): mysqli_query(Object(mysqli), 'INSERT INTO log...')
+#1 {main}
+  thrown in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php on line 52
+[09-Sep-2025 12:17:45 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'utavqate_msbsec_wa.logs' doesn't exist in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php:52
+Stack trace:
+#0 /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php(52): mysqli_query(Object(mysqli), 'INSERT INTO log...')
+#1 {main}
+  thrown in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php on line 52
+[09-Sep-2025 12:17:47 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'utavqate_msbsec_wa.logs' doesn't exist in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php:52
+Stack trace:
+#0 /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php(52): mysqli_query(Object(mysqli), 'INSERT INTO log...')
+#1 {main}
+  thrown in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php on line 52
+[09-Sep-2025 12:17:48 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'utavqate_msbsec_wa.logs' doesn't exist in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php:52
+Stack trace:
+#0 /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php(52): mysqli_query(Object(mysqli), 'INSERT INTO log...')
+#1 {main}
+  thrown in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php on line 52
+[09-Sep-2025 12:17:54 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'utavqate_msbsec_wa.logs' doesn't exist in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php:52
+Stack trace:
+#0 /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php(52): mysqli_query(Object(mysqli), 'INSERT INTO log...')
+#1 {main}
+  thrown in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php on line 52
+[09-Sep-2025 12:17:57 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'utavqate_msbsec_wa.logs' doesn't exist in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php:52
+Stack trace:
+#0 /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php(52): mysqli_query(Object(mysqli), 'INSERT INTO log...')
+#1 {main}
+  thrown in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php on line 52
+[09-Sep-2025 12:18:01 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'utavqate_msbsec_wa.logs' doesn't exist in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php:52
+Stack trace:
+#0 /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php(52): mysqli_query(Object(mysqli), 'INSERT INTO log...')
+#1 {main}
+  thrown in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php on line 52
+[09-Sep-2025 12:19:05 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'utavqate_msbsec_wa.logs' doesn't exist in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php:52
+Stack trace:
+#0 /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php(52): mysqli_query(Object(mysqli), 'INSERT INTO log...')
+#1 {main}
+  thrown in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php on line 52
+[09-Sep-2025 12:22:59 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'utavqate_msbsec_wa.logs' doesn't exist in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php:52
+Stack trace:
+#0 /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php(52): mysqli_query(Object(mysqli), 'INSERT INTO log...')
+#1 {main}
+  thrown in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php on line 52
+[10-Sep-2025 10:41:52 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'utavqate_msbsec_wa.logs' doesn't exist in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php:52
+Stack trace:
+#0 /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php(52): mysqli_query(Object(mysqli), 'INSERT INTO log...')
+#1 {main}
+  thrown in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php on line 52
+[10-Sep-2025 10:41:54 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'utavqate_msbsec_wa.logs' doesn't exist in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php:52
+Stack trace:
+#0 /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php(52): mysqli_query(Object(mysqli), 'INSERT INTO log...')
+#1 {main}
+  thrown in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php on line 52
+[10-Sep-2025 11:08:35 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'utavqate_msbsec_wa.logs' doesn't exist in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php:52
+Stack trace:
+#0 /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php(52): mysqli_query(Object(mysqli), 'INSERT INTO log...')
+#1 {main}
+  thrown in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php on line 52
+[10-Sep-2025 11:20:44 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'utavqate_msbsec_wa.logs' doesn't exist in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php:52
+Stack trace:
+#0 /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php(52): mysqli_query(Object(mysqli), 'INSERT INTO log...')
+#1 {main}
+  thrown in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php on line 52
+[10-Sep-2025 14:04:49 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'utavqate_msbsec_wa.logs' doesn't exist in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php:52
+Stack trace:
+#0 /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php(52): mysqli_query(Object(mysqli), 'INSERT INTO log...')
+#1 {main}
+  thrown in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php on line 52
+[10-Sep-2025 14:04:50 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'utavqate_msbsec_wa.logs' doesn't exist in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php:52
+Stack trace:
+#0 /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php(52): mysqli_query(Object(mysqli), 'INSERT INTO log...')
+#1 {main}
+  thrown in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php on line 52
+[10-Sep-2025 14:04:53 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'utavqate_msbsec_wa.logs' doesn't exist in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php:52
+Stack trace:
+#0 /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php(52): mysqli_query(Object(mysqli), 'INSERT INTO log...')
+#1 {main}
+  thrown in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php on line 52
+[10-Sep-2025 14:04:53 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'utavqate_msbsec_wa.logs' doesn't exist in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php:52
+Stack trace:
+#0 /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php(52): mysqli_query(Object(mysqli), 'INSERT INTO log...')
+#1 {main}
+  thrown in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php on line 52
+[10-Sep-2025 14:04:53 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'utavqate_msbsec_wa.logs' doesn't exist in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php:52
+Stack trace:
+#0 /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php(52): mysqli_query(Object(mysqli), 'INSERT INTO log...')
+#1 {main}
+  thrown in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php on line 52
+[10-Sep-2025 14:04:53 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'utavqate_msbsec_wa.logs' doesn't exist in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php:52
+Stack trace:
+#0 /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php(52): mysqli_query(Object(mysqli), 'INSERT INTO log...')
+#1 {main}
+  thrown in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php on line 52
+[10-Sep-2025 14:04:54 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'utavqate_msbsec_wa.logs' doesn't exist in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php:52
+Stack trace:
+#0 /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php(52): mysqli_query(Object(mysqli), 'INSERT INTO log...')
+#1 {main}
+  thrown in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php on line 52
+[12-Sep-2025 14:55:13 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'utavqate_msbsec_wa.logs' doesn't exist in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php:52
+Stack trace:
+#0 /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php(52): mysqli_query(Object(mysqli), 'INSERT INTO log...')
+#1 {main}
+  thrown in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php on line 52
+[12-Sep-2025 21:03:12 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'utavqate_msbsec_wa.logs' doesn't exist in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php:52
+Stack trace:
+#0 /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php(52): mysqli_query(Object(mysqli), 'INSERT INTO log...')
+#1 {main}
+  thrown in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php on line 52
+[12-Sep-2025 21:03:12 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'utavqate_msbsec_wa.logs' doesn't exist in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php:52
+Stack trace:
+#0 /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php(52): mysqli_query(Object(mysqli), 'INSERT INTO log...')
+#1 {main}
+  thrown in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php on line 52
+[12-Sep-2025 21:03:22 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'utavqate_msbsec_wa.logs' doesn't exist in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php:52
+Stack trace:
+#0 /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php(52): mysqli_query(Object(mysqli), 'INSERT INTO log...')
+#1 {main}
+  thrown in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php on line 52
+[12-Sep-2025 21:04:53 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'utavqate_msbsec_wa.logs' doesn't exist in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php:54
+Stack trace:
+#0 /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php(54): mysqli_query(Object(mysqli), 'INSERT INTO log...')
+#1 {main}
+  thrown in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/login/login.php on line 54

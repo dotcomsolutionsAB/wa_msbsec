@@ -1,0 +1,20 @@
+[25-Oct-2025 11:31:11 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'whatsapp'@'localhost' (using password: YES) in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/api_cron/send_wa.php:6
+Stack trace:
+#0 /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/api_cron/send_wa.php(6): mysqli->__construct('127.0.0.1:3306', 'whatsapp', 'jv!777k8B', 'whatsapp')
+#1 {main}
+  thrown in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/api_cron/send_wa.php on line 6
+[18-Feb-2026 13:54:03 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: No such file or directory in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/api_cron/send_wa.php:6
+Stack trace:
+#0 /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/api_cron/send_wa.php(6): mysqli->__construct('localhost', 'utavqate_msbsec...', 'YLPu;XPfvJ,L', 'utavqate_msbsec...')
+#1 {main}
+  thrown in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/api_cron/send_wa.php on line 6
+[18-Apr-2026 12:54:04 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: No such file or directory in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/api_cron/send_wa.php:6
+Stack trace:
+#0 /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/api_cron/send_wa.php(6): mysqli->__construct('localhost', 'utavqate_msbsec...', 'YLPu;XPfvJ,L', 'utavqate_msbsec...')
+#1 {main}
+  thrown in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/api_cron/send_wa.php on line 6
+[11-Jun-2026 12:54:02 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: No such file or directory in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/api_cron/send_wa.php:6
+Stack trace:
+#0 /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/api_cron/send_wa.php(6): mysqli->__construct('localhost', 'utavqate_msbsec...', 'YLPu;XPfvJ,L', 'utavqate_msbsec...')
+#1 {main}
+  thrown in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/api_cron/send_wa.php on line 6

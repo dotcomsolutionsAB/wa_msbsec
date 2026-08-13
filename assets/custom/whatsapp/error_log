@@ -1,0 +1,392 @@
+[27-Aug-2025 13:51:37 Asia/Kolkata] PHP Warning:  Illegal string offset 'generalSearch' in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[27-Aug-2025 14:38:06 Asia/Kolkata] PHP Warning:  Illegal string offset 'generalSearch' in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[12-Sep-2025 21:05:28 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[15-Sep-2025 10:46:31 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[15-Sep-2025 12:33:14 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[15-Sep-2025 22:02:06 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[15-Sep-2025 23:03:36 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[17-Sep-2025 14:51:09 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[18-Sep-2025 12:01:56 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[25-Sep-2025 13:10:29 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[25-Sep-2025 13:13:04 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[25-Sep-2025 14:54:20 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[30-Sep-2025 14:25:11 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[22-Oct-2025 10:25:52 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[24-Oct-2025 12:14:41 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[25-Oct-2025 11:29:47 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[25-Oct-2025 11:38:26 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[25-Oct-2025 11:40:17 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[25-Oct-2025 11:40:21 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[25-Oct-2025 11:41:50 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[25-Oct-2025 11:42:08 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[25-Oct-2025 11:42:10 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[03-Nov-2025 13:59:29 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[04-Nov-2025 11:48:44 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[04-Nov-2025 11:54:09 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[04-Nov-2025 11:54:19 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[04-Nov-2025 11:54:21 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[04-Nov-2025 11:54:59 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[04-Nov-2025 11:55:01 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[04-Nov-2025 11:55:12 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[04-Nov-2025 11:55:30 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[04-Nov-2025 11:55:33 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[04-Nov-2025 11:56:15 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[04-Nov-2025 11:56:17 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[04-Nov-2025 11:56:58 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[04-Nov-2025 11:57:13 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[04-Nov-2025 12:00:08 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[06-Nov-2025 13:59:57 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[11-Nov-2025 15:03:49 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[19-Nov-2025 09:59:50 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[24-Nov-2025 11:47:37 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[27-Nov-2025 10:17:38 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[28-Nov-2025 12:37:40 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[28-Nov-2025 13:49:58 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[28-Nov-2025 13:53:37 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[28-Nov-2025 15:13:44 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[08-Dec-2025 10:15:54 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[08-Dec-2025 11:40:55 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[08-Dec-2025 12:36:06 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[10-Dec-2025 10:35:40 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[10-Dec-2025 11:21:12 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[10-Dec-2025 11:22:55 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[10-Dec-2025 11:32:04 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[10-Dec-2025 11:32:07 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[10-Dec-2025 11:39:08 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[10-Dec-2025 11:39:34 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[10-Dec-2025 11:40:33 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[10-Dec-2025 11:45:19 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[10-Dec-2025 11:52:32 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[10-Dec-2025 13:26:12 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[10-Dec-2025 14:57:30 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[10-Dec-2025 15:02:45 Asia/Kolkata] PHP Warning:  Undefined array key "pagination" in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 5
+[10-Dec-2025 15:02:45 Asia/Kolkata] PHP Warning:  Undefined array key "query" in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 6
+[10-Dec-2025 15:02:45 Asia/Kolkata] PHP Warning:  Undefined array key "sort" in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 7
+[10-Dec-2025 15:02:45 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[10-Dec-2025 15:02:45 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 15
+[10-Dec-2025 15:02:45 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 16
+[10-Dec-2025 15:02:45 Asia/Kolkata] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 17
+[18-Dec-2025 15:20:55 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[29-Jan-2026 17:17:18 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[29-Jan-2026 17:18:17 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[29-Jan-2026 17:21:26 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[29-Jan-2026 17:21:52 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[29-Jan-2026 17:27:49 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[29-Jan-2026 17:31:56 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[29-Jan-2026 17:32:19 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[29-Jan-2026 17:33:34 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[29-Jan-2026 17:33:46 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[29-Jan-2026 17:35:20 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[29-Jan-2026 17:36:06 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[30-Jan-2026 13:29:49 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[30-Jan-2026 13:30:22 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[30-Jan-2026 14:51:11 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[31-Jan-2026 09:42:37 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[31-Jan-2026 09:43:43 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[31-Jan-2026 09:46:10 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[31-Jan-2026 09:47:44 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[31-Jan-2026 09:47:46 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[31-Jan-2026 09:49:07 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[31-Jan-2026 11:36:37 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[11-Feb-2026 11:35:53 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[12-Feb-2026 15:48:36 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[12-Feb-2026 15:48:53 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[12-Feb-2026 16:18:20 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[13-Feb-2026 13:53:29 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[13-Feb-2026 13:53:44 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[17-Feb-2026 13:21:05 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[20-Feb-2026 12:29:48 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[25-Feb-2026 13:17:10 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[25-Feb-2026 13:54:51 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[26-Feb-2026 10:47:58 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[26-Feb-2026 13:26:28 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[13-Aug-2026 09:23:42 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
+[13-Aug-2026 09:23:49 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php:9
+Stack trace:
+#0 {main}
+  thrown in /home1/utavqate/wa.anjumanequtbimsbsecunderabad.com/assets/custom/whatsapp/retrieve.php on line 9
