@@ -59,7 +59,20 @@ function waTextParam($value): string
 }
 
 /**
- * Build fee_reminder body params (10 placeholders).
+ * Build fee_reminder body params.
+ *
+ * {{1}}  parent name
+ * {{2}}  student name
+ * {{3}}  ITS
+ * {{4}}  class
+ * {{5}}  section
+ * {{6}}  academic year (static)
+ * {{7}}  custom_1
+ * {{8}}  custom_2
+ * {{9}}  custom_3
+ * {{10}} ITS
+ * {{11}} custom_4
+ * {{12}} website URL (static)
  *
  * @param array $student DB student row
  * @param string $parentName father or mother name for {{1}}
@@ -84,6 +97,8 @@ function waFeeReminderParams(array $student, string $parentName): array
         waTextParam($student['custom_2'] ?? ''),
         waTextParam($student['custom_3'] ?? ''),
         $its,
+        waTextParam($student['custom_4'] ?? ''),
+        'https://anjumanequtbimsbsecunderabad.com/',
     ];
 }
 
