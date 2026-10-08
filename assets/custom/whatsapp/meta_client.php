@@ -71,7 +71,7 @@ function waTextParam($value): string
  * {{8}}  custom_2 (amount — repeated per template)
  * {{9}}  custom_3 (due date)
  * {{10}} ITS
- * {{11}} website URL (static)
+ * {{11}} pay link URL (static)
  *
  * @param array $student DB student row
  * @param string $parentName father or mother name for {{1}}
@@ -97,7 +97,7 @@ function waFeeReminderParams(array $student, string $parentName): array
         $amount,
         waTextParam($student['custom_3'] ?? ''),
         $its,
-        'https://anjumanequtbimsbsecunderabad.com/',
+        'https://paydirect.eduqfix.com/app/57DG5rO0bKwUsGmyyfcLA9HkFd4Br4BF6HPwp6O7/7333/16942',
     ];
 }
 
