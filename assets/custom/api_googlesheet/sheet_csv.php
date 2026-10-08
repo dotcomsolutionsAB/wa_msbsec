@@ -66,7 +66,8 @@ function parseCsv(string $csv): array
 
     $rows = [];
     $headers = [];
-    while (($data = fgetcsv($fh)) !== false) {
+    // escape must be passed explicitly on PHP 8.4+
+    while (($data = fgetcsv($fh, null, ',', '"', '\\')) !== false) {
         if ($data === [null] || (count($data) === 1 && trim((string) $data[0]) === '')) {
             continue;
         }

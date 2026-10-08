@@ -14622,14 +14622,17 @@ var Whatsapp = function() {
                 },
                 error: function(xhr) {
                     var msg = 'Sync failed';
+                    var detail = '';
                     try {
                         var parsed = JSON.parse(xhr.responseText);
                         if (parsed && parsed.error) msg = parsed.error;
+                        if (parsed && parsed.detail) detail = parsed.detail;
                     } catch (e) {}
                     swal.fire({
                         position: 'top-right',
                         type: 'error',
                         title: msg,
+                        text: detail || undefined,
                         showConfirmButton: true
                     });
                 },
