@@ -1,6 +1,6 @@
 <?php
 /**
- * Send Meta WA template: fee_reminder
+ * Send Meta WA template: fee_reminder_2
  *
  * Modes:
  * - test: one student_id + phone (+ optional parent role)
@@ -16,7 +16,7 @@ require_once __DIR__ . '/../connect.php';
 require_once __DIR__ . '/meta_client.php';
 
 $mode = isset($_REQUEST['mode']) ? trim((string) $_REQUEST['mode']) : 'bulk';
-$templateName = 'fee_reminder';
+$templateName = 'fee_reminder_2';
 $langCode = 'en';
 
 try {

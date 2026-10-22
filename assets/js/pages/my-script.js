@@ -14723,7 +14723,7 @@ var Whatsapp = function() {
             }
 
             swal.fire({
-                title: 'Send fee_reminder to ' + ids.length + ' student(s)?',
+                title: 'Send fee_reminder_2 to ' + ids.length + ' student(s)?',
                 text: 'Messages will go to father and mother mobiles when available.',
                 type: 'question',
                 showCancelButton: true,

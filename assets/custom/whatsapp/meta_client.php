@@ -59,19 +59,14 @@ function waTextParam($value): string
 }
 
 /**
- * Build fee_reminder body params (11 placeholders — matches Meta template).
+ * Build fee_reminder_2 body params (11 placeholders — matches Meta template).
  *
- * {{1}}  parent name
- * {{2}}  student name
- * {{3}}  ITS
- * {{4}}  class
- * {{5}}  section
- * {{6}}  custom_1 (fee description)
- * {{7}}  custom_2 (amount)
- * {{8}}  custom_2 (amount — repeated per template)
- * {{9}}  custom_3 (due date)
- * {{10}} ITS
- * {{11}} pay link URL (static)
+ * Salaam {{1}},
+ * ... child {{2}}, ITS {{3}} ... class {{4}} {{5}} ... year {{6}}.
+ * Due fees: {{7}}
+ * Due Amount: {{8}}
+ * Due Date: {{9}}
+ * Direct Pay Link {{10}} ... Registration Code: {{11}}
  *
  * @param array $student DB student row
  * @param string $parentName father or mother name for {{1}}
@@ -84,20 +79,21 @@ function waFeeReminderParams(array $student, string $parentName): array
     }
 
     $its = waTextParam($student['its'] ?? '');
-    $amount = waTextParam($student['custom_2'] ?? '');
+    $amountRaw = trim((string) ($student['custom_2'] ?? ''));
+    $amount = $amountRaw === '' ? '.' : ('INR ' . $amountRaw);
 
     return [
-        waTextParam($parentName),
-        waTextParam($student['name'] ?? ''),
-        $its,
-        waTextParam($student['class'] ?? ''),
-        $section,
-        waTextParam($student['custom_1'] ?? ''),
-        $amount,
-        $amount,
-        waTextParam($student['custom_3'] ?? ''),
-        $its,
-        'https://paydirect.eduqfix.com/app/57DG5rO0bKwUsGmyyfcLA9HkFd4Br4BF6HPwp6O7/7333/16942',
+        waTextParam($parentName),                                    // {{1}} parent
+        waTextParam($student['name'] ?? ''),                         // {{2}} child
+        $its,                                                        // {{3}} ITS
+        waTextParam($student['class'] ?? ''),                        // {{4}} class
+        $section,                                                    // {{5}} section
+        '2026-2027',                                                 // {{6}} academic year
+        waTextParam($student['custom_1'] ?? ''),                     // {{7}} due fees
+        $amount,                                                     // {{8}} due amount
+        waTextParam($student['custom_3'] ?? ''),                     // {{9}} due date
+        'https://paydirect.eduqfix.com/app/57DG5rO0bKwUsGmyyfcLA9HkFd4Br4BF6HPwp6O7/7333/16942', // {{10}} pay link
+        $its,                                                        // {{11}} registration code
     ];
 }
 
